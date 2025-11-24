@@ -1,3 +1,5 @@
+package Builder;
+
 public class User {
     private String name;
     private int age;
@@ -27,7 +29,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Builder.User{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", email='" + email + '\'' +
